@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <style>
+        .gridCol{
+            display: inline-grid;;
+            max-width: auto;
+            grid-template-columns: 250px 400px;
+            background-color: #3e2723;
+            grid-column-gap: 5px;
+            grid-row-gap: 15px;
+            
+        }
+        .gridItems{
+            text-align: center;
+            border: 2px solid black;
+            background-color:gold;
+        }
+        .testGrid {
+            grid-gap: 20px;
+            margin-top: 20px;
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'left main main main right right'
+    'left footer footer footer footer footer';
+}
+ 
+
+.item1 {
+    text-align: center;
+    background-color: wheat;
+     grid-area: header; }
+.item2 {
+    text-align: center;
+    background-color: aqua;
+     grid-area: left; }
+.item3 {
+    text-align: center;
+    background-color: blueviolet;
+     grid-area: main; }
+.item4 {
+    text-align: center;
+    background-color: green;
+     grid-area: right; }
+.item5 {
+    text-align: center;
+    background-color: yellow;
+     grid-area: footer; }
+.mainDiv .pMain{
+    color: red;
+}
+p{
+    /* color: green !important; */
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainDiv">
+        <p class="pMain">test css</p>
+    </div>
+    <div class="row">
+        <div class="col-6"> Thêm các ví dụ
+
+            The spelling mistakes in the text had been highlighted in green.
+            The text is finished, but the pictures will have to be pasted in later.
+            You need to demonstrate to the examiners that you have more than a literal understanding of the text.
+            The students are reading "Lord of the Flies" as one of their set texts this year.
+            At this point in the speech, the minister departed from his prepared text.
+        </div>
+        <div class="col-4">There's still space on the ad for a further piece of text.
+            We give the address of the website in several places in the printed text.
+            You can highlight horizontal blocks of text by clicking and dragging the mouse.
+        </div>
+        <div class="col-4 mt-3"> trong tiếng Trung Quốc (Phồn thể)
+            （書、雜誌等中區別於圖片的）正文，文字材料, （行動電話或傳呼機發送的）簡訊（同 text message）, （學習某課程必讀的）課本，教科書，書目… 
+        </div>
+    </div>
+<br>
+    <div class="gridCol">
+        <div class="gridItems">1</div>
+        <div class="gridItems">2</div>
+        <div class="gridItems">3</div>
+        <div class="gridItems">4</div>
+        <div class="gridItems">5</div>
+        <div class="gridItems">6</div>
+    </div>
+    <br>
+    <div class="testGrid">
+        <div class="item1">Header</div>
+        <div class="item2">Left Side</div>
+        <div class="item3">Main</div>  
+        <div class="item4">Right side</div>
+        <div class="item5">Footer</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+crossorigin="anonymous"></script>
+</body>
+</html>

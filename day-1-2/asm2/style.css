@@ -1,0 +1,218 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+/* ~~~~~~~~~~~~~~~~~Header~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.divHeader{
+    background-image: url('./resources/images/bg.PNG');
+    height: 400px;
+    
+}
+
+.navHeader{
+    background-color: rgb(71,5,33);
+    height: 25px;
+    display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+}
+.hHeader{
+    color: white;
+    
+}
+.divBtnHeader a{
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.divBodyHeader{
+    
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    
+}
+
+.h3BodyHeader{ 
+    margin-top: 100px;
+    color: white;
+    font-weight: 700;
+}
+.h4BodyHeader{
+    color: white;
+    font-weight: 700;
+}
+.btnBodyHeader{
+    background-color: RGB(238,9,121);
+    color: white;
+    border-radius: 30%;
+    height: 35px;
+    font-size: 10px;
+    width: 100px;
+}
+
+/* ~~~~~~~~~~~~Main~~~~~~~~~~~~~~~~~ */
+
+.divBodyDesc1{
+    display: flex;
+        justify-content:center;
+        align-items: center;
+        margin: 40px 400px;
+        column-gap: 30px;
+}
+.imgBody1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.divBodyDesc2{
+    display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 400px;
+        column-gap: 30px;
+}
+.divBodyDesc3{
+    display: flex;
+        justify-content:center;
+        align-items: center;
+        margin: 40px 400px;
+        column-gap: 30px;
+}
+
+/* ~~~~~~~~~~~~~~~Footer~~~~~~~~~~~~~~~ */
+.navFooter{
+    background-color: black;
+    height: 100px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    
+}
+.pFooter{
+    color: white;
+}
+.btnDropdown{
+    background-color: rgb(71,5,33) ;
+    color: rgb(111, 109, 109);
+    border : 1px solid rgb(111, 109, 109);
+}
+/* ~~~~~~~~~~~~~~Responsive~~~~~~~~~~~~ */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .divBtnHeader{
+        display: none;
+    }
+    .divBodyDesc1{
+        display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            margin: 40px 40px;
+            
+    }
+    .divBodyDesc2{
+        display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            margin: 40px 40px;
+    }
+    .divBodyDesc3{
+        display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            margin: 40px 40px;
+    }
+    .imgBody1{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+} 
+
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    .divBtnHeader{
+        display: none;
+    }
+    .divBodyDesc1{
+        display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            margin: 40px 200px;
+            
+    }
+    .divBodyDesc2{
+        display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            margin: 40px 200px;
+    }
+    .divBodyDesc3{
+        display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            margin: 40px 200px;
+    }
+    .imgBody1{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+} 
+
+@media only screen and (min-width: 992px) {
+    .divBodyDesc1{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 40px 400px;
+            column-gap: 30px;
+    }
+   
+    .divBodyDesc2{
+        display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            margin: 40px 400px;
+            column-gap: 30px;
+    }
+    .divBodyDesc3{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 40px 400px;
+            column-gap: 30px;
+    }
+    .imgBody1{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    .btnDropdown{
+        display: none;
+    }
+    
+} 
+.dropdownMenu li{
+    list-style: none;
+}
+.dropdownMenu{
+    position: absolute;
+    margin-left: -50px;
+    color: white;
+    width: 100px;
+    
+   
+}

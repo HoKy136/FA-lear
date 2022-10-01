@@ -1,0 +1,448 @@
+@media only screen and (max-width: 600px) {
+
+  .bgMain{
+    display: flex;
+    background-image: url('./img/bg-masthead.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    color: aliceblue;
+    flex-direction: column;
+    text-align: center;
+}
+
+h3{
+  margin-top: 25%;
+}
+
+.bgInput{
+  width: 70%;
+}
+
+.bgButton{
+  width: 70%;
+  background-color: rgb(53,126,242) ;
+  border: 2px solid rgb(53,126,242) ; 
+  border-radius: 5px; color: aliceblue;
+}
+
+
+.logoMain{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.descMain{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.listPeople{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+
+
+.listP1{
+  max-height: 200px;
+  max-width: 200px;
+ 
+}
+.listP2{
+  max-height: 200px;
+  max-width: 200px;
+  
+}
+.listP3{
+  max-height: 200px;
+  max-width: 200px;
+ 
+}
+.navFooter{
+  
+  
+ margin: 40px;
+}
+.navFooter a:nth-child(7){
+  display: flex;
+  justify-content: center;
+}
+
+
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .bgMain{
+      display: flex;
+      background-image: url('./img/bg-masthead.jpg');
+      background-size: cover;
+      width: 100%;
+      height: 400px;
+      color: aliceblue;
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .bgPara{
+    margin-top: 25%;
+  }
+
+  .bgInput{
+    width: 70%;
+  }
+
+  .bgButton{
+    width: 70%;
+    background-color: rgb(53,126,242) ;
+    border: 2px solid rgb(53,126,242) ; 
+    border-radius: 5px; color: aliceblue;
+  }
+
+
+  .logoMain{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .descMain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .listPeople{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bgFooter{
+    display: flex;
+    background-image: url('./img/bg-masthead.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    color: aliceblue;
+    flex-direction: column;
+    text-align: center;
+  }
+    .flex-container{
+      flex-wrap: wrap;
+    
+     }
+     .flex-items{
+      margin: 40px;
+     }
+     .listP1{
+      max-height: 200px;
+      max-width: 200px;
+     
+    }
+    .listP2{
+      max-height: 200px;
+      max-width: 200px;
+      
+    }
+    .listP3{
+      max-height: 200px;
+      max-width: 200px;
+     
+    }
+    
+  }
+  
+   /* Medium devices (landscape tablets, 768px and up) */
+   @media only screen and (min-width: 768px) {
+    .flex-items{
+      margin: 40px;
+     }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .bgMain{
+      display: flex;
+      background: url("./img/bg-masthead.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 100%;
+      height: 400px;
+      
+      color: aliceblue;
+      
+      text-align: center;
+  }
+  .bgTask{
+    margin-top: 10%;
+    max-height: 300px;
+  }
+  .bgInput{
+    width: 210px;
+  }
+
+  .bgButton{
+    width: 70px;
+    background-color: rgb(53,126,242) ;
+    border: 2px solid rgb(53,126,242) ; 
+    border-radius: 5px; color: aliceblue;
+  }
+  .logoMain{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    
+    margin: 50px 150px;
+  }
+  .descMain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+
+    .descMain1{
+      display: flex;
+      justify-content: center;
+      flex-direction: row-reverse;
+      width: 80%;
+      
+    }
+
+    .descMain1-1{
+      flex: 1;
+      width: 40%;
+      
+    }
+    .descMain1-2{
+      flex: 1;
+      
+      text-align:left ;
+      margin: 15% 150px 0 150px;
+    }
+
+    .descMain2{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      width: 100%;
+      
+    }
+
+    .descMain2-1{
+      flex: 1;
+      
+
+      
+    }
+    .descMain2-2{
+      flex: 1;
+      text-align: left;
+      margin: 10% ;
+    
+      
+    }
+
+    .descMain3{
+      display: flex;
+      justify-content: center;
+      flex-direction: row-reverse;
+      width: 80%;
+      
+    }
+
+    .descMain3-1{
+      flex: 1;
+      width: 40%;
+      
+    }
+    .descMain3-2{
+      flex: 1;
+      
+      text-align:left ;
+      margin: 15% 150px 0 150px;
+    }
+    .listRes{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 50px 250px;
+     
+    }
+    .listP1{
+      max-height: 200px;
+      max-width: 200px;
+     
+    }
+    .listP2{
+      max-height: 200px;
+      max-width: 200px;
+      
+    }
+    .listP3{
+      max-height: 200px;
+      max-width: 200px;
+     
+    }
+    .lastBG{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      
+    }   
+    .navFooter{
+      display: flex;
+      justify-content: center;
+    }
+
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .bgMain{
+      display: flex;
+      background: url("./img/bg-masthead.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 400px;
+      width: 100%;
+      color: aliceblue;
+      flex-direction: column;
+      text-align: center;
+  }
+ 
+  .bgInput{
+    width: 350px;
+  }
+
+  .bgButton{
+    width: 70px;
+    background-color: rgb(53,126,242) ;
+    border: 2px solid rgb(53,126,242) ; 
+    border-radius: 5px; color: aliceblue;
+  }
+  .logoMain{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+   
+    margin: 50px 350px;
+  }
+  .descMain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+
+    .descMain1{
+      display: flex;
+      justify-content: center;
+      flex-direction: row-reverse;
+      width: 80%;
+      
+    }
+
+    .descMain1-1{
+      flex: 1;
+      width: 40%;
+      
+    }
+    .descMain1-2{
+      flex: 1;
+      
+      text-align:left ;
+      margin: 15% 150px 0 150px;
+    }
+
+    .descMain2{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      width: 100%;
+      
+    }
+
+    .descMain2-1{
+      flex: 1;
+      
+
+      
+    }
+    .descMain2-2{
+      flex: 1;
+      text-align: left;
+      margin: 10% ;
+    
+      
+    }
+
+    .descMain3{
+      display: flex;
+      justify-content: center;
+      flex-direction: row-reverse;
+      width: 80%;
+      
+    }
+
+    .descMain3-1{
+      flex: 1;
+      width: 40%;
+      
+    }
+    .descMain3-2{
+      flex: 1;
+      
+      text-align:left ;
+      margin: 15% 150px 0 150px;
+    }
+    .listRes{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+     
+    }
+    .listP1{
+      max-height: 200px;
+      max-width: 200px;
+     
+    }
+    .listP2{
+      max-height: 200px;
+      max-width: 200px;
+      
+    }
+    .listP3{
+      max-height: 200px;
+      max-width: 200px;
+     
+    }
+    .lastBG{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      
+    } 
+    .navFooter{
+      display: flex;
+      justify-content: center;
+    }
+  
+  }
+  
+  

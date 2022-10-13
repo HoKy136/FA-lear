@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="App"></div>
+    <script>
+        
+        const  p = document.createElement('p');
+        p.style = "margin-left: 25px"
+        p.innerHTML = 0;
+        
+        
+        let btnRun = document.createElement('button');
+        btnRun.style = "width : 50px ; height : 30px";
+        btnRun.innerHTML ="Run";
+
+        let btnStop = document.createElement('button');
+        btnStop.style = "width : 50px ; height : 30px ; margin-left : 20px";
+        btnStop.innerHTML ="Stop";
+
+        let count = 0;
+        let getTime = null;
+
+        btnRun.addEventListener('click' , () =>{
+             getTime = setInterval(() =>{
+                count++ ;
+                p.textContent = count;
+                
+            },1000)
+        })
+
+        btnStop.addEventListener('click' , () =>{
+            clearInterval(getTime);
+            count = 0 ;
+            p.textContent = count;
+        })
+
+        App.append( p , btnRun , btnStop);
+   
+        
+        // var testPromise = new Promise( (resolve , reject) => {
+        //     resolve();
+        // })
+        // testPromise 
+        //     .then (function(){
+        //         var arr = [1,2,3];
+        //         return arr;
+        //     })
+        //     .then (function(arr){
+        //         var arr2 = arr.map(value => {return value * 2 ;})
+        //         return arr2
+        //     })
+        //     .then (arr2 =>{
+        //         let arr3 = [0,1 ,...arr2];
+        //         console.log(arr3)
+        //     })
+            
+    </script>
+    <!-- <script src="scrips.js"></script> -->
+</body>
+</html>

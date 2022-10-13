@@ -119,3 +119,13 @@ function upper(strings, ...values) {
   }
   return s;
 }
+	var name = 'Nguyen Van A',
+	  account = 'ANV',
+	  classname = 'Fresher FrontEnd';
+	
+	console.log(
+    
+	 upper`Hello ${name} (@${account}), welcome to the ${classname}!!!` ===
+	    'Hello NGUYEN VAN A (@ANV), welcome to the FRESHER FRONTEND!!!'
+	);
+

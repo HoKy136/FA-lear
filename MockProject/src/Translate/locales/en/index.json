@@ -1,0 +1,24 @@
+{
+    
+    "Header": {
+        "home" : "Home",
+        "product" : "Product",
+        "review" : "Reviews",
+        "signin" : "Sign In"
+    },
+    "Main": {
+        "detail" : "Details",
+        "added" : "Added Successfully!!",
+        "add" : "Add To Cart"
+    },
+    "CheckOut": {
+        "Order" : "Order Info",
+        "Subtotal" : "Subtotal: ",
+        "Ship" : "Shipping Cost:",
+        "Total" : "Total:",
+        "CheckOut" : "Check Out",
+        "Continue" : "Continue Shopping",
+        "Title" : " My Shopping Cart",
+        "Content" : "You have no products in cart"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    
+    "Header": {
+        "home" : "Trang Chủ",
+        "product" : "Sản Phẩm",
+        "review" : "Nhận Xét",
+        "signin" : "Đăng Nhập"
+    },
+    "Main": {
+        "detail" : "Chi Tiết",
+        "added" : "Đã Thêm Thành Công!!",
+        "add" : "Thêm Vào Giỏ"
+    },
+    "CheckOut": {
+        "Order" : "Thông Tin Đặt Hàng",
+        "Subtotal" : "Giá: ",
+        "Ship" : "Phí Vận Chuyển:",
+        "Total" : "Tổng:",
+        "CheckOut" : "Thanh Toán",
+        "Continue" : "Về Trang Sản Phẩm",
+        "Title" : " Giỏ Hàng Của Tôi",
+        "Content" : "Bạn Chưa Có Sản Phẩm Nào Trong Giỏ"
+    }
+}
